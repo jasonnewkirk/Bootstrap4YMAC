@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "Content/bootstrap-4.1.3/scss/_variables.css",
+    "inputFile": "Content/bootstrap-4.1.3/scss/_variables.scss"
+  },
+  {
+    "outputFile": "Content/bootstrap-4.1.3/scss/bootstrap.css",
+    "inputFile": "Content/bootstrap-4.1.3/scss/bootstrap.scss"
+  }
+]
