@@ -7,8 +7,49 @@
 //
 // Color system
 //
+/*
+  orange
+254 142 102
+#fe8e66
 
-$blue: #568bcc !default;
+green
+153 222 184
+#99deb8
+
+blue 
+0 79 139
+#004f8b
+*/
+$blue: #004f8b !default;
+$indigo: #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red: #fe8e66 !default;
+$orange: #f44336 !default;
+$yellow: #cc943d !default;
+$green: #99deb8 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+$middle-gray: #a58f85 !default;
+
+/*darken($btn-bkg, 10%)*/
+
+$white: #fff !default;
+$gray-100: lighten($middle-gray, 45%) !default;
+$gray-200: lighten($middle-gray, 35%) !default;
+$gray-300: lighten($middle-gray, 25%) !default;
+$gray-400: lighten($middle-gray, 15%) !default;
+$gray-500: lighten($middle-gray, 5%) !default;
+$gray-600: $middle-gray !default;
+$gray-700: darken($middle-gray, 10%) !default;
+$gray-800: darken($middle-gray, 25%) !default;
+$gray-900: darken($middle-gray, 35%) !default;
+$black: darken($middle-gray, 40%) !default;
+
+
+/*
+  $blue: #568bcc !default;
 $indigo: #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
@@ -18,8 +59,11 @@ $yellow: #cc943d !default;
 $green: #4fa475 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
+  */
 
-/*$blue: #007bff !default;
+/*
+  Original
+  $blue: #007bff !default;
 $indigo: #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
