@@ -20,13 +20,14 @@ blue
 0 79 139
 #004f8b
 */
-$blue: #004f8b !default;
+$blue: darken(#004f8b, 10%) !default;
 $indigo: #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
 $red: #fe8e66 !default;
 $orange: #f44336 !default;
-$yellow: #cc943d !default;
+//$yellow: #efc687 !default;
+$yellow: lighten(#2A2649, 10%) !default;
 $green: #99deb8 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
