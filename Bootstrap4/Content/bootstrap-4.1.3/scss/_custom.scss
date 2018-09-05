@@ -42,7 +42,7 @@ $pictionblue: #59abea !default;
 
 
 $middle-gray: #9dadc3 !default;
-$white: #fdfcf7 !default;
+$white: #fdfcf7!default;
 $gray-100: lighten($middle-gray, 25%) !default;
 $gray-200: lighten($middle-gray, 20%) !default;
 $gray-300: lighten($middle-gray, 15%) !default;
@@ -60,7 +60,7 @@ $grays: map-merge( ( "100": $gray-100, "200": $gray-200, "300": $gray-300, "400"
 
 
 $primary: $pigeonpost !default;
-$secondary: $gray-600 !default;
+$secondary: $pictionblue !default;
 $success: $aquaforest !default;
 $info: $newyorkpink !default;
 $warning: $tuliptree !default;
