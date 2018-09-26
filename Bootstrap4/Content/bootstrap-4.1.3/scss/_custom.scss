@@ -41,8 +41,8 @@ $newyorkpink: #db8988 !default;
 $pictionblue: #59abea !default;
 
 
-$middle-gray: #9dadc3 !default;
-$white: #fdfcf7!default;
+$middle-gray: darken(#9dadc3, 15%) !default;
+$white: #fdfcf7 !default;
 $gray-100: lighten($middle-gray, 25%) !default;
 $gray-200: lighten($middle-gray, 20%) !default;
 $gray-300: lighten($middle-gray, 15%) !default;
@@ -69,6 +69,14 @@ $light: $gray-100 !default;
 $dark: $gray-800 !default;
 
 
+
+
+$navbar-light-color: rgba($black, .7) !default;
+$navbar-light-hover-color: rgba($black, .9) !default;
+$navbar-light-active-color: rgba($black, .9) !default;
+$navbar-light-disabled-color: rgba($black, .3) !default;
+
+$navbar-nav-link-padding-x: .7rem !default;
 
 
 /*
